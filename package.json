@@ -1,0 +1,16 @@
+{
+  "name": "message-sorter",
+  "version": "1.0.0",
+  "description": "Sort messages by key name in alphabetical and kana order",
+  "main": "index.js",
+  "scripts": {
+    "sort": "ts-node src/sortMessages.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24"
+  }
+} 
