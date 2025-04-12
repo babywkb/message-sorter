@@ -4,7 +4,7 @@
   "description": "Sort messages by key name in alphabetical and kana order",
   "main": "index.js",
   "scripts": {
-    "sort": "ts-node src/sortMessages.ts"
+    "sort": "ts-node src/devscripts/sortMessages.ts"
   },
   "dependencies": {
     "ts-node": "^10.9.2",

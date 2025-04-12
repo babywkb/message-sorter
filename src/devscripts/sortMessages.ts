@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 // メッセージファイルのパス
-const messagesPath = path.join(__dirname, 'messages.ts');
+const messagesPath = path.join(__dirname, '../messages.ts');
 
 export function sortMessages() {
   // ファイルを読み込む
